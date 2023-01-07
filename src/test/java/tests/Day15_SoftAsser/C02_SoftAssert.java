@@ -1,4 +1,4 @@
-package tests.Day15_yarin;
+package tests.Day15_SoftAsser;
 
 
 import org.openqa.selenium.WebElement;
@@ -16,7 +16,7 @@ import java.util.List;
 
 public class C02_SoftAssert {
 
-    @Test
+    @Test(groups ={"minireg1","smoke"})
     public void test01(){
         // 1. “http://zero.webappsecurity.com/” Adresine gidin
         Driver.getDriver().get("http://zero.webappsecurity.com/");

@@ -10,7 +10,7 @@ import utilities.Driver;
 
 public class C03_NutellaTesti {
 
-    @Test
+    @Test(groups = {"minireg1","minireg2","smoke"})
     public void test01(){
         //amazona git
         Driver.getDriver().get("https://www.amazon.com");

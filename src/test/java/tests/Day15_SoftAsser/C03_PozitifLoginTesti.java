@@ -1,4 +1,4 @@
-package tests.Day15_yarin;
+package tests.Day15_SoftAsser;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
