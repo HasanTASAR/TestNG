@@ -29,5 +29,16 @@ public class C03_PozitifLoginTesti {
         Assert.assertTrue(qualitydemyPage.basariliGirisCoursesLinki.isDisplayed());
 
         Driver.closeDriver();
+
+        //WebElement cookieKabul = Driver.getDriver().findElement(By.xpath("//*[text()='Accept']"));
+        //cookieKabul.click();
+
+        //şifreden sonra bu
+
+
+        //Driver.getDriver().findElement(By.xpath("//a[@onclick='cookieAccept();']")).click();
+
+        //@FindBy(xpath = "//*[text()='Accept']")
+        //public WebElement cookiesAccept;
     }
 }
